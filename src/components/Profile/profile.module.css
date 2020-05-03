@@ -1,0 +1,26 @@
+.dynamicPadding {
+  padding: 10px 100px;
+}
+@media (max-width: 500px) {
+  .dynamicPadding {
+    padding: 0;
+  }
+}
+.pad {
+  padding: 15px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.avatarCircular {
+  border-radius: 50%;
+  border: 5px solid #8db7d2;
+  width: 90%;
+  height: auto;
+}
+.neonBorder {
+  box-shadow: 0 0 15px 4px #f50057, 0 0 80px 2px #004097,
+    inset 0 0 15px 4px #f50057, inset 0 0 100px 2px #004097;
+  border-color: #bde1ff;
+}

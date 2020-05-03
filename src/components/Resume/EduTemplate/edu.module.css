@@ -1,0 +1,29 @@
+.h4 {
+  margin: 0;
+  line-height: 24px;
+  font-size: 18px;
+  color: #444;
+}
+.date {
+  line-height: 17px;
+  color: #0c5e7d;
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: 400;
+  padding: 2px 6px;
+}
+.post {
+  line-height: 18px;
+  font-size: 13px;
+  color: #999;
+}
+.postDate {
+  display: flex;
+  justify-content: space-between;
+}
+.detail {
+  margin-top: 0;
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
